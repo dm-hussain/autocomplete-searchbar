@@ -107,9 +107,18 @@ body {
  
 }
 
-@media screen {
+@media (max-width: 600px) {
+
+  .image-box{
+     
+    flex-direction: column;
+    
+}
+
+
+
   .image-box img{
-    width: 40%;
+    width: 80%;
  
     
    }
