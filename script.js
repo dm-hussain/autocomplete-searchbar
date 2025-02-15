@@ -214,6 +214,7 @@ userInp.addEventListener('input', () => {
     notFound.classList.add('hide');
   } else {
     resultList.innerHTML = '';
+    notFound.classList.add('hide');
     
   }
 
